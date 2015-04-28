@@ -1,0 +1,34 @@
+body{
+	background-image: url("PaperPlane.jpg");
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	float: left;
+	color: white;
+	font-weight: bold;
+}
+
+#thing {
+	margin-bottom: 30px;
+}
+
+.angular-google-map-container { 
+	top: 30pxs;
+	height: 400px; 
+	margin: 0 auto;
+}
+
+
+#instafeed img {
+padding:10px 5px;
+border-radius: 10px;
+opacity:0.8;
+filter:alpha(opacity=80);
+}
+
+#instafeed img:hover {
+opacity:1;
+filter:alpha(opacity=100);
+}

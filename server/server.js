@@ -26,7 +26,7 @@ app.get('/stream', function(req, res){
       type: "GET",
       dataType: "application/json",
       cache: false,
-      url: "https://api.instagram.com/v1/tags/",
+      url: "https://api.instagram.com/v1/tags/kittens",
       success: function(data) {
         res.send(data);
         }
