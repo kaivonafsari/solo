@@ -20,6 +20,21 @@ api.use({
 });
 
 
+app.get('/stream', function(req, res){
+	  console.log(req.body);
+	  $.ajax({
+      type: "GET",
+      dataType: "application/json",
+      cache: false,
+      url: "https://api.instagram.com/v1/tags/",
+      success: function(data) {
+        res.send(data);
+        }
+      });
+
+});
+
+
 var server = app.listen(3000, function () {
 
   var host = server.address().address;
